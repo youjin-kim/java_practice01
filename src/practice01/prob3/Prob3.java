@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Prob3 {
 	public static void main (String args[]) {
-Scanner input = new Scanner(System.in);
+		Scanner scanner = new Scanner( System.in );
 		
 		while(true) {
 		
 			System.out.print("숫자를 입력하세요: ");
 			
-			int num = input.nextInt();
+			int num = scanner.nextInt();
 			int sum = 0;
 			
 			if(num % 2 == 0) {
